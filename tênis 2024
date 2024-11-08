@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos sobre Corrida de Rua</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .video-container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+        }
+        .description {
+            margin-top: 10px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Catálogo de Vídeos sobre Corrida de Rua</h1>
+
+    <div class="video-container">
+        <h2>Vídeo 1: Dicas para Iniciantes</h2>
+        <iframe src="https://www.youtube.com/embed/XknEVbz2ohw" allowfullscreen></iframe>
+        <p class="description">Um guia completo para iniciantes que querem começar a correr. Este vídeo aborda dicas essenciais para melhorar seu desempenho e evitar lesões.</p>
+    </div>
+
+    <div class="video-container">
+        <h2>Vídeo 2: Corrida de Rua - Preparação e Treino</h2>
+        <iframe src="https://www.youtube.com/embed/wn4HoM_EaG0" allowfullscreen></iframe>
+        <p class="description">Neste vídeo, você encontrará dicas sobre como se preparar e planejar seu treino para provas de corrida de rua, com orientações de especialistas.</p>
+    </div>
+
+</body>
+</html>
